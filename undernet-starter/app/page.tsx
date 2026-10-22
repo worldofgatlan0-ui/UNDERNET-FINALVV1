@@ -98,7 +98,7 @@ export default function HomePage() {
       </aside>
 
       <section className="main-column">
-        <header className="topbar">
+        <header className="topbar"></header>
           <div className="breadcrumb"><span>UNDERNET</span><span className="slash">/</span><strong>{active.toUpperCase()}</strong></div>
           <label className="search-box"><Search size={17} /><input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search people, videos, communities..." /><kbd>⌘ K</kbd></label>
           <div className="top-actions">
